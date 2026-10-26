@@ -45,7 +45,7 @@ public class ClienteService {
         dao.atualizar(cliente);
     }
 
-    private void validarDados(String nome, String cpf,
+    public void validarDados(String nome, String cpf,
             String telefone, String endereco) {
 
         if (nome == null || nome.isBlank()
